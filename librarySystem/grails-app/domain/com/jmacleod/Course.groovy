@@ -22,7 +22,7 @@ title + code + leader
 
 title blank:false, nullable:false
 code blank:false, nullable:false
-leader blank:false, nullable:false, max:1
+leader blank:false, nullable:false
 department blank:false, nullable:false
 description blank:false, nullable:false, widget: 'textarea'
 studyMode blank:false, nullable:false
