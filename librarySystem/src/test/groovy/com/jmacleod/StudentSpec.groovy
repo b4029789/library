@@ -15,8 +15,20 @@ class StudentSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void testName() {
+        when: "a student does not enter a name"
+
+	def nametest = new Student (
+		name: 'john',
+		email:'j@hotmail.com',
+		username:'jay',
+		password:'pass',
+		studentId:'123abc',
+		course:'Geography'
+	)
+	
+
+        then: 'validation should pass'
+	nametest.validate()
     }
 }
