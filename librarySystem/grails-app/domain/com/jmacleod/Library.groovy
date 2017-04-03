@@ -8,7 +8,9 @@ String openingHours
 String locations
 String studySpaces
 
-static hasMany=[librarian:Librarian, book:Book, student:Student]
+String toString() {buildingName}
+
+static hasMany=[book:Book, student:Student, librarian:Librarian]
 
 // Constraints for the Library class
 

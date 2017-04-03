@@ -10,6 +10,9 @@ Date dateBorrowed
 Date returnDate
 Student student
 Boolean overdue
+Library library
+
+String toString() {title}
 
 static hasMany=[bookreview:BookReview]
 

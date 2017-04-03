@@ -10,6 +10,8 @@ String password
 String telephone
 Library library 
 
+String toString() {name}
+
 
 // Constraints for the Librarian class
 

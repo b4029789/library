@@ -9,13 +9,9 @@ String department
 String description
 String studyMode
 
-static hasOne=[student:Student]
+String toString() {title}
 
-String toString() {
-
-title + code + leader
-
-}
+static hasMany=[student:Student]
 
 
     static constraints = {

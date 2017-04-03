@@ -8,8 +8,12 @@ String username
 String password
 String studentID
 Course course
+Library library
+
+String toString() {name}
 
 static hasMany=[bookreview:BookReview, book:Book]
+ 
 
 
 // Constraints for the Student class
