@@ -83,7 +83,7 @@ img {
     border: none;
 }
 
-.footer {
+/*.footer {
     background: #48802c;
     color: #000;
     clear: both;
@@ -91,7 +91,7 @@ img {
     margin-top: 1.5em;
     padding: 1em;
     min-height: 1em;
-}
+}*/
 
 .footer a {
     color: #4D8618;
@@ -446,7 +446,7 @@ th.desc a {
 }
 
 th:hover, tr:hover {
-    background: #79b94c;
+    background: #66a3ff;
 }
 
 /* PAGINATION */

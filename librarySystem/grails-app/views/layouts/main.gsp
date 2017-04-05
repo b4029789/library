@@ -12,7 +12,7 @@
 
     <div class="row">
 	<asset:image src="banner.jpg"/>
-	<g:loginToggle/>
+	<g:loginToggleStu/> <g:loginToggleLib/>
     </div>
 
     <g:layoutHead/>
