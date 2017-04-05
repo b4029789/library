@@ -33,7 +33,7 @@ html * {
 }
 
 body {
-    background: #ffffff;
+    background: #00D5FF;
     color: #333333;
     overflow-x: hidden; /* prevents box-shadow causing a horizontal scrollbar in firefox when viewport < 960px wide */
     -moz-box-shadow: 0 0 0.3em #4D8618;
@@ -491,8 +491,8 @@ th:hover, tr:hover {
 
 /* ACTION BUTTONS */
 
-.buttons {
-    background-color: #efefef;
+.button {
+    background-color: #FF00FF;
     overflow: hidden;
     padding: 0.3em;
     -moz-box-shadow: 0 0 3px 1px #aaaaaa;
