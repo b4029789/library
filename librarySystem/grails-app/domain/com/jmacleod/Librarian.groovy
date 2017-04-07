@@ -12,6 +12,8 @@ Library library
 
 String toString() {name}
 
+String testUser() {password:''}
+
 
 // Constraints for the Librarian class
 

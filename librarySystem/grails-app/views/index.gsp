@@ -22,5 +22,6 @@
 	       and register other librarians if you are a librarian. If you are a student you can add book
 	       reviews, look at other reviews and also see a list of books in each library. 
 	</p>
+    </div>
 </body>
 </html>

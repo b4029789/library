@@ -15,8 +15,10 @@ class LibrarianSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
+    void testUser() {
+	def lib1 = new Librarian(password:'dave')
+
+	!com.validate()
     }
+
 }

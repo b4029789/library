@@ -12,7 +12,8 @@
 
     <div class="row">
 	<asset:image src="banner.jpg"/>
-	<g:loginToggleStu/> <g:loginToggleLib/>
+	<g:loginToggleStu/>
+	<g:loginToggleLib/>
     </div>
 
     <g:layoutHead/>
